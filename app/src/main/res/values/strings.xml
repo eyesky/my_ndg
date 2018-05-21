@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MyNDG</string>
+
+    <string name="download_msg">Do you want to download \n this guide with EUR or \n with RUS specs?</string>
+
+    <string name="downloaded_car">Downloaded Car</string>
+    <string name="previous_car">Previous Car</string>
+    <string name="available_for_download_car">Available for Download</string>
+
+    <string name="car_download_msg">Do you want to download this vehicle content? It may take several minutes based on the speed of your internet connection. It will be downloaded only once for each vehicle.</string>
+
+
+</resources>
