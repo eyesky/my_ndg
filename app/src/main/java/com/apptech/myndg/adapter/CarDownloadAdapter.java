@@ -127,15 +127,11 @@ public class CarDownloadAdapter extends RecyclerView.Adapter<RecyclerView.ViewHo
 
             // here set the border visible for just downloaded car
             if (selected == position && Values.ALREADY_DOWNLOADED.equalsIgnoreCase(info.getStatus())) {
-
                 holder.imageViewBorder.setVisibility(View.VISIBLE);
                 holder.imgDeleteOrDownload.setVisibility(View.GONE);
-                ((CarInfo) listData.get(position)).setSelectedCar(0);
-
             } else if (info.getSelectedCar() == 1 && Values.ALREADY_DOWNLOADED.equalsIgnoreCase(info.getStatus())) {
                 holder.imageViewBorder.setVisibility(View.VISIBLE);
                 holder.imgDeleteOrDownload.setVisibility(View.GONE);
-                ((CarInfo) listData.get(position)).setSelectedCar(0);
             } else {
                 holder.imageViewBorder.setVisibility(View.GONE);
                 holder.imgDeleteOrDownload.setVisibility(View.VISIBLE);
